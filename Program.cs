@@ -12,6 +12,8 @@ namespace Hello_GitHub
             Console.WriteLine(Environment.MachineName.ToLower());
             Console.WriteLine(Environment.OSVersion);
 
+            Console.WriteLine("lines added after fork1 before merge.");
+
 
             Console.ReadKey();
         }
