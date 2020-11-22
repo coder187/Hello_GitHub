@@ -14,9 +14,11 @@ namespace Hello_GitHub
             Console.WriteLine("this line added in fork!");
             Console.WriteLine("this line added in fork1!");
             Console.WriteLine("this line added in fork1!");
-            employee e = GetEmp(2, Emps());
+            employee e = GetEmp(7, Emps());
             Console.WriteLine(e.email);
             Console.WriteLine("this line added in fork1!");
+            Console.WriteLine("this line added in fork2!");
+
             Console.ReadKey();
         }
 
@@ -39,10 +41,15 @@ namespace Hello_GitHub
 
             List<employee> es = new List<employee>();
 
-
             es.Add(new employee { id = 1, email = "jon@ksd.ie", fname = "Jon", sname = "kelly", manager = 1, start = DateTime.Now });
             es.Add(new employee { id = 2, email = "mick@ksd.ie", fname = "Michael", sname = "", manager = 1, start = DateTime.Now });
             es.Add(new employee { id = 3, email = "jimh@ksd.ie", fname = "James", sname = "", manager = 1, start = DateTime.Now });
+            es.Add(new employee { id = 4, email = "salh@ksd.ie", fname = "James", sname = "", manager = 1, start = DateTime.Now });
+            es.Add(new employee { id = 5, email = "lilh@ksd.ie", fname = "James", sname = "", manager = 1, start = DateTime.Now });
+            es.Add(new employee { id = 6, email = "sadh@ksd.ie", fname = "James", sname = "", manager = 1, start = DateTime.Now });
+            es.Add(new employee { id = 7, email = "okih@ksd.ie", fname = "James", sname = "", manager = 1, start = DateTime.Now });
+
+
             return es;
         }
 
