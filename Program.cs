@@ -63,5 +63,13 @@ namespace Hello_GitHub
         public string email { get; set; }
         public DateTime start { get; set; }
     }
+
+    class vehcile
+    {
+        public int id { get; set; }
+        public string reg { get; set; }
+        
+    }
+
 }
 
